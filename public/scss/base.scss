@@ -1,0 +1,23 @@
+$body_theme: darken(#764, 20%);
+
+body {
+	background-color: $body_theme;
+}
+table {
+	border-collapse: collapse
+}
+th, td {
+    padding: 0.5em 2em;
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+a {
+	font-weight: bolder;
+	color: orangered;
+	text-decoration: none;
+}
+
+.summary {
+	text-align: right
+}
